@@ -6,10 +6,10 @@ int main()
     int *ptr = &age ;
 
     printf("%d\n",&age);
-    printf("%d\n",ptr);
+    
     printf("%d\n",*ptr);
-    printf("%d\n",*ptr);
-    printf("%d\n",&ptr);
+    
+    printf("%d\n",*(&age));
     printf("%d\n",&ptr);
 
 
